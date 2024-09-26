@@ -1,0 +1,12 @@
+version: 2
+sources:
+  - name: fufu
+    database: fufu
+    schema: public
+    tables:
+      - name: orders
+      - name: branch
+      - name: customer
+      - name: inventory
+      - name: menu_item
+      - name: payment_method

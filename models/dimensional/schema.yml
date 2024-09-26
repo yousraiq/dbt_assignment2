@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: dim_branches
+    description: "This table contains branch details."
+    columns:
+      - name: branch_id
+        description: "The primary key for each branch."
+        data_tests:
+          - unique
+          - not_null
+      - name: branch_name
+        description: "The name of the branch."
